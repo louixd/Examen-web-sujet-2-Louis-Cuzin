@@ -1,7 +1,7 @@
 body {
    background-color: blanchedalmond;
+ 
 }
-
 
 .container{
     max-width: 5000px;
@@ -17,18 +17,31 @@ header {
     list-style: none;
     color: black;
     display: flex;
-    margin: 10 15px
+    margin: 10 15px;
 }
 h1{
     text-decoration: none;
 }
 
-a{
+.a1{
     color: black;
     text-decoration: none;
-    margin: 0 15px
+    margin: 0 25px;
 }
 
+
+.a2{
+    color: black;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+
+.a3{
+    color: black;
+    text-decoration: none;
+    margin: 0 25px;
+}
 .menu{
     display: flex;
     list-style: none;
@@ -37,6 +50,7 @@ a{
 
 a:hover{
 font-weight: bold;
+font-size: 20px;
 }
 
 .ul1{
@@ -66,9 +80,39 @@ section{
     border-top: 50px;
 }
 
-.img{
-    width: 700px;
-    height: auto;
+.ski{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+
+.specs{
+    max-width: 500px;
+    max-height: 150px;
+    margin: 0 auto;  
+    background-color: rgb(255, 255, 255);
+    margin: 10 150px;
+    
     
 }
 
+h2{
+    text-align: center;
+}
+
+.ft{
+    text-align: center;
+}
+
+.a4{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+body.specs{
+     opacity: 0%;
+}

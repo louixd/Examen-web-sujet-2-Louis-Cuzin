@@ -1,6 +1,5 @@
 body {
    background-color: blanchedalmond;
- 
 }
 
 .container{
@@ -83,8 +82,7 @@ section{
 .ski{
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+  
  
 }
 
@@ -94,7 +92,7 @@ section{
     margin: 0 auto;  
     background-color: rgb(255, 255, 255);
     margin: 10 150px;
-    
+   
 }
 
 h2{
@@ -110,7 +108,22 @@ h2{
     text-decoration: none;
 }
 
+.cache{
+   visibility: hidden;
+}
 
-.specs{
-    opacity: 0;
+.bt{
+    display: flex;
+   align-items: center;
+    border-radius: 10%;
+    background-color:whites;
+}
+.bt:hover{
+    background-color: grey;
+
+}
+
+.ajouter{
+    display: flex;
+    justify-content: center;
 }
